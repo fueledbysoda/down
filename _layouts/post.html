@@ -1,0 +1,17 @@
+---
+layout: layout
+---
+
+<div class="row">
+  <div class="large-12 columns" role="content">
+    <article>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <h6>Written by <a href="#">Kartik Patel</a> on {{ page.date | date: "%B %e, %Y" }}.</h6>
+      {{ content }}
+      <div class="pull"></div>
+      {% include twitter.html %}
+      <hr>
+      {% include disqus.html %}
+    </article>
+  </div>
+</div>
