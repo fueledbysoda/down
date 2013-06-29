@@ -2,7 +2,6 @@ baseurl: /down
 markdown: rdiscount
 pygments: true
 permalink: /posts/:year/:month/:day/:title
-auto: true
 rdiscount:
   extensions: [smart]
 title : Fueled By Soda
