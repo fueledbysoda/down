@@ -1,4 +1,4 @@
-baseurl: 
+baseurl: /down
 markdown: rdiscount
 pygments: true
 permalink: /posts/:year/:month/:day/:title
